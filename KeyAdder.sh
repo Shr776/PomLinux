@@ -1,5 +1,6 @@
 #!/bin/sh
-# wget -q "--no-check-certificate" https://github.com/Shr776/PomLinux/raw/Plugins/KeyAdder.sh -O - | /bin/sh
+# wget -q "--no-check-certificate" 
+https://github.com/Shr776/PomLinux/raw/Plugins/KeyAdder.sh -O - | /bin/sh
 sleep 1
 echo "Old Version Deleting..."
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/KeyAdder
