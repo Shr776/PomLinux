@@ -10,7 +10,7 @@ echo "New Version Downloaded"
 sleep 1
 if [ -f /tmp/KeyAdder.tar.gz ]; then
   mkdir /usr/lib/enigma2/python/Plugins/Extensions/KeyAdder
-  tar -xzf /tmp/AutoBiss.tar.gz -C /usr/lib/enigma2/python/Plugins/Extensions/KeyAdder
+  tar -xzf /tmp/KeyAdder.tar.gz -C /usr/lib/enigma2/python/Plugins/Extensions/KeyAdder
 fi
 sleep 2
 if [ -d /usr/lib/enigma2/python/Plugins/Extensions/KeyAdder ]; then
